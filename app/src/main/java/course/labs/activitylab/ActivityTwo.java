@@ -50,6 +50,10 @@ public class ActivityTwo extends Activity {
         // TODO: Assign the appropriate TextViews to the TextView variables
         // Hint: Access the TextView by calling Activity's findViewById()
         // textView1 = (TextView) findViewById(R.id.textView1);
+        mTvCreate = (TextView) findViewById(R.id.create);
+        mTvStart = (TextView) findViewById(R.id.start);
+        mTvResume = (TextView) findViewById(R.id.resume);
+        mTvRestart = (TextView) findViewById(R.id.restart);
 
         Button closeButton = (Button) findViewById(R.id.bClose);
         closeButton.setOnClickListener(new OnClickListener() {
