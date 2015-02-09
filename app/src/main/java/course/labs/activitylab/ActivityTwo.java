@@ -26,16 +26,21 @@ public class ActivityTwo extends Activity {
     // mCreate, mRestart, mStart and mResume
     // to count calls to onCreate(), onRestart(), onStart() and
     // onResume(). These variables should not be defined as static.
+    private int mCreate = 0;
+    private int mRestart = 0;
+    private int mStart = 0;
+    private int mResume = 0;
 
     // You will need to increment these variables' values when their
     // corresponding lifecycle methods get called.
 
-
-
-
     // TODO: Create variables for each of the TextViews
     // named  mTvCreate, mTvRestart, mTvStart, mTvResume.
     // for displaying the current count of each counter variable
+    private TextView mTvCreate;
+    private TextView mTvStart;
+    private TextView mTvResume;
+    private TextView mTvRestart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,11 +50,6 @@ public class ActivityTwo extends Activity {
         // TODO: Assign the appropriate TextViews to the TextView variables
         // Hint: Access the TextView by calling Activity's findViewById()
         // textView1 = (TextView) findViewById(R.id.textView1);
-
-
-
-
-
 
         Button closeButton = (Button) findViewById(R.id.bClose);
         closeButton.setOnClickListener(new OnClickListener() {
@@ -61,8 +61,6 @@ public class ActivityTwo extends Activity {
                 // This function closes Activity Two
                 // Hint: use Context's finish() method
 
-
-
             }
         });
 
@@ -73,11 +71,6 @@ public class ActivityTwo extends Activity {
             // Restore value of counters from saved state
             // Only need 4 lines of code, one for every count variable
 
-
-
-
-
-
         }
 
         // Emit LogCat message
@@ -86,9 +79,6 @@ public class ActivityTwo extends Activity {
         // TODO:
         // Update the appropriate count variable
         // Update the user interface via the displayCounts() method
-
-
-
 
     }
 
@@ -105,9 +95,6 @@ public class ActivityTwo extends Activity {
         // Update the appropriate count variable
         // Update the user interface
 
-
-
-
     }
 
     @Override
@@ -120,8 +107,6 @@ public class ActivityTwo extends Activity {
         // TODO:
         // Update the appropriate count variable
         // Update the user interface
-
-
 
     }
 
@@ -152,9 +137,6 @@ public class ActivityTwo extends Activity {
         // Update the appropriate count variable
         // Update the user interface
 
-
-
-
     }
 
     @Override
@@ -171,12 +153,6 @@ public class ActivityTwo extends Activity {
         // TODO:
         // Save counter state information with a collection of key-value pairs
         // 4 lines of code, one for every count variable
-
-
-
-
-
-
 
     }
 
