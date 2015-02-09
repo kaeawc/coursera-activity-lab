@@ -107,6 +107,7 @@ public class ActivityTwo extends Activity {
         // Update the appropriate count variable
         // Update the user interface
         mStart++;
+        displayCounts();
 
     }
 
@@ -121,6 +122,7 @@ public class ActivityTwo extends Activity {
         // Update the appropriate count variable
         // Update the user interface
         mResume++;
+        displayCounts();
 
     }
 
@@ -151,6 +153,7 @@ public class ActivityTwo extends Activity {
         // Update the appropriate count variable
         // Update the user interface
         mRestart++;
+        displayCounts();
 
     }
 
