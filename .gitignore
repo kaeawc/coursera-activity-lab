@@ -5,4 +5,5 @@
 import-summary.txt
 
 build/
+local.properties
 
