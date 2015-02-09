@@ -3,6 +3,7 @@ package course.labs.activitylab;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -168,7 +169,7 @@ public class ActivityOne extends Activity {
     }
 
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState) {
+    public void onSaveInstanceState(@NonNull Bundle savedInstanceState) {
         // TODO:
         // Save state information with a collection of key-value pairs
         // 4 lines of code, one for every count variable

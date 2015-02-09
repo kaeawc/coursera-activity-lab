@@ -2,6 +2,7 @@ package course.labs.activitylab;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -162,7 +163,7 @@ public class ActivityTwo extends Activity {
     }
 
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState) {
+    public void onSaveInstanceState(@NonNull Bundle savedInstanceState) {
 
         // TODO:
         // Save counter state information with a collection of key-value pairs
