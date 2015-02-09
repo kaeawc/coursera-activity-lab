@@ -90,6 +90,8 @@ public class ActivityOne extends Activity {
         // TODO:
         // Update the appropriate count variable
         // Update the user interface via the displayCounts() method
+        mCreate++;
+        displayCounts();
 
     }
 
@@ -105,6 +107,7 @@ public class ActivityOne extends Activity {
         // TODO:
         // Update the appropriate count variable
         // Update the user interface
+        mStart++;
 
     }
 
@@ -118,6 +121,7 @@ public class ActivityOne extends Activity {
         // TODO:
         // Update the appropriate count variable
         // Update the user interface
+        mResume++;
 
     }
 
@@ -147,6 +151,7 @@ public class ActivityOne extends Activity {
         // TODO:
         // Update the appropriate count variable
         // Update the user interface
+        mRestart++;
 
     }
 
